@@ -27,4 +27,5 @@ with open('pass_list.txt', mode='a') as f:
     f.write(secret_pass+ '\n')
     f.write('\n')
 
+#clipboardに貼り付けてコピペ出来るようにする
 pyperclip.copy(secret_pass)
